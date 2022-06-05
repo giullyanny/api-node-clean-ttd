@@ -1,6 +1,0 @@
-{
-  "teste-husky.js": [
-    "standard",
-    "git add"
-  ]
-}
