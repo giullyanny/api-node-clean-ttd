@@ -1,2 +1,0 @@
-function teste(){ return{;
-};
