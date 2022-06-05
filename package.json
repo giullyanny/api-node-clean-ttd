@@ -17,7 +17,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "link-staged"
+      "pre-commit": "lint-staged"
     }
   },
   "author": "",
