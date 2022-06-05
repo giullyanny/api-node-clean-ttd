@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/giullyanny/api-node-clean-ttd.git"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
