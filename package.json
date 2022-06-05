@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/giullyanny/api-node-clean-ttd.git"
   },
+  "lint-staged":{
+    "*.js":["standard"]
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -17,6 +20,7 @@
   },
   "homepage": "https://github.com/giullyanny/api-node-clean-ttd#readme",
   "devDependencies": {
+    "lint-staged": "^13.0.0",
     "standard": "^17.0.0"
   }
 }
