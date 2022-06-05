@@ -1,5 +1,5 @@
 {
-  "*.js": [
+  "teste-husky.js": [
     "standard",
     "git add"
   ]
