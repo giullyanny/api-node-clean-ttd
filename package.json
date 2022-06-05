@@ -10,8 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/giullyanny/api-node-clean-ttd.git"
   },
-  "lint-staged":{
-    "*.js":["standard"]
+  "lint-staged": {
+    "*.js": [
+      "standard"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "link-staged"
+    }
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +27,7 @@
   },
   "homepage": "https://github.com/giullyanny/api-node-clean-ttd#readme",
   "devDependencies": {
+    "husky": "^8.0.1",
     "lint-staged": "^13.0.0",
     "standard": "^17.0.0"
   }
