@@ -1,2 +1,2 @@
-function testHusky(){        return{},
+function testHusky(){        return{},,
 };
